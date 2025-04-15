@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("products")
 public class ProductController {
 
+
     @PostMapping
     public Product save(@RequestBody Product product) {
         System.out.println("Product received: " + product);
